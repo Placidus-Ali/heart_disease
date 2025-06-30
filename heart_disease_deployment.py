@@ -20,7 +20,7 @@ image_path = os.path.join(script_dir, "heart_disease.jpg")
 image = Image.open(image_path)
 
 # Streamlit Title and Header
-st.image(image, use_column_width=True)
+st.image(image, use_container_width=True)
 st.title("Heart Disease Prediction Model")
 st.write("This Model predicts the likelihood of heart disease based on user inputs.")
 with st.expander("Documentation: Input Feature Descriptions"):
